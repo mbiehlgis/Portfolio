@@ -1,0 +1,185 @@
+/* ------ Testing Responsive Mobile Design ------ */
+/* @media screen and (max-width: 768px) {
+  .intro {
+    width: 300px !important;
+    border-bottom: 10px !important;
+    border-bottom: 10px !important;
+  }
+  h1 {
+    font-size: 14pt !important;
+    letter-spacing: normal !important;
+  }
+  h2 {
+    font-size: 9pt !important;
+  }
+  .mainContainer {
+    overflow: visible !important;
+  }
+  #infoPanel {
+    height: 400px !important;
+    float: left !important;
+    width: 98% !important;
+    flex: 98% !important;
+    border: 3px solid #3EBCEF !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 0px !important;
+    /* padding-left: 50px !important; */
+  /* }
+  .body-text {
+    float: left !important;
+    width: 98% !important;
+    flex: 98% !important;
+    border: 3px solid #3EBCEF !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    padding-right: 0px !important;
+    background-color: #000033;
+  }
+  .VidsPics {
+    width: 400px !important;
+  }
+  .legend-control-container {
+    width: 200px !important;
+    height: 90px !important;
+  }
+  .leaflet-top.leaflet-left,
+  .leaflet-control-zoom.leaflet-bar.leaflet-control {
+    right:0 !important;
+    margin-right: 10px !important;
+  }
+  .footer {
+    position: fixed !important;
+    bottom: 0px !important;
+  }
+  .leaflet-control-zoom.leaflet-bar.leaflet-control,
+  .leaflet-touch.leaflet-bar {
+    padding-top: 190px !important;
+  }
+} */
+
+/* ------ End Test ------ */
+
+                /* ------ Main Div ------ */
+.mainContainer {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.ToCPanel {
+  max-width: 25%;
+  width: 25%;
+  height: 100vh;
+  flex: 100%;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #000033;
+  overflow-x: hidden;
+  padding-right: 17px;
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -ms-overflow-style: none
+}
+
+/* Hidden Scroll for Chrome/Safari */
+.ToCPanel::-webkit-scrollbar {
+  display: none;
+}
+
+.Pfp {
+  width: 50%;
+  padding-top: 60px;
+}
+
+.tableOfContents {
+  color: #ffffff;
+  font-size: 16pt;
+  font-family: Quicksand;
+  padding-top: 75px;
+  font-style: bolder;
+}
+
+.footer,
+.footer p {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  font-size: 8px;
+  padding-right: 980px
+}
+
+            /* -------- About/Resume/Portfolio -------- */
+#infoPanel {
+  position: relative;
+  float: right;
+  flex: 75%;
+  width: 75%;
+  height: 100vh;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: white;
+  overflow-y: scroll;
+  scrollbar-width: .3;
+}
+
+#welcomeContainer {
+  background-color: #333366;
+  width: 100%;
+  height: 99vh
+}
+
+.welcomeText {
+  color: white;
+  font-family: Quicksand;
+  padding-top: 21%
+}
+
+.title {
+  color: #333366;
+  font-family: Quicksand;
+  text-align: left;
+  padding-left: 3%;
+  font-size: 30pt;
+}
+
+.aboutMeText {
+  color: #333366;
+  font-family: Quicksand;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.aboutMeList {
+  color: #333366;
+  font-family: Quicksand;
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+#bookList {
+  padding-left: 0 !important;
+}
+
+/* RESUME */
+.resumeTitle {
+  color: #333366;
+  font-family: Quicksand;
+  padding-left: 5%;
+  padding-right: 3%;
+  font-size: 18pt;
+}
+
+.resumeText {
+  color: #333366;
+  font-family: Quicksand;
+  padding-left: 7%;
+  padding-right: 3%;
+  font-size: 12pt;
+}
