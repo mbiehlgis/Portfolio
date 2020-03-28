@@ -89,19 +89,35 @@
 
 .Pfp {
   width: 50%;
-  padding-top: 60px;
+  padding-top: 40px;
+}
+
+.mediaColumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.mediaRow {
+  padding-top: 20px;
+}
+
+.mediaRow::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .tableOfContents {
   color: #ffffff;
   font-size: 16pt;
   font-family: Quicksand;
-  padding-top: 75px;
+  padding-top: 40px;
   font-style: bolder;
 }
 
-.footer,
-.footer p {
+.footer{
+  font-family: Quicksand;
   position: fixed;
   text-align: center;
   bottom: 0px;
@@ -182,4 +198,41 @@
   padding-left: 7%;
   padding-right: 3%;
   font-size: 12pt;
+}
+
+/* Portfolio */
+.portfolioColumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.portfolioRow1 {
+  padding-top: 20px;
+}
+
+.portfolioRow2 {
+  padding-top: 20px;
+}
+
+.portfolioRow3 {
+  padding-top: 20px;
+}
+
+.portfolioRow1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.portfolioRow2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.portfolioRow3::after {
+  content: "";
+  clear: both;
+  display: table;
 }
