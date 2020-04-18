@@ -238,6 +238,41 @@
   display: table;
 }
 
+.brightness {
+    display: inline-block;
+    width: auto;
+}
+.brightness img:hover {
+    border:2.5px solid #333366;
+    box-shadow: 0 0 10px #333366;
+    -webkit-box-shadow: 0 0 10px #333366;
+    -moz-box-shadow: 0 0 10px #333366;
+    -o-box-shadow: 0 0 10px #333366;
+    -ms-box-shadow: 0 0 10px #333366;
+    opacity: .8;
+    transition: .4s ease;
+}
+
+.home {
+  display: inline-block;
+  width: auto;
+}
+
+.home img:hover {
+  opacity: .4;
+  transition: .7s ease;
+}
+
+.socialmedia {
+  display: inline-block;
+  width: auto;
+}
+
+.socialmedia img:hover {
+  opacity: .5;
+  transition: .4s ease;
+}
+
         /* PORTFOLIO PAGES */
 #mapPanel {
   position: relative;
