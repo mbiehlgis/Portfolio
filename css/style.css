@@ -1,64 +1,93 @@
 /* ------ Testing Responsive Mobile Design ------ */
-/* @media screen and (max-width: 768px) {
-  .intro {
-    width: 300px !important;
-    border-bottom: 10px !important;
-    border-bottom: 10px !important;
-  }
-  h1 {
-    font-size: 14pt !important;
-    letter-spacing: normal !important;
-  }
-  h2 {
-    font-size: 9pt !important;
-  }
-  .mainContainer {
-    overflow: visible !important;
-  }
-  #infoPanel {
-    height: 400px !important;
-    float: left !important;
-    width: 98% !important;
-    flex: 98% !important;
-    border: 3px solid #3EBCEF !important;
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-    border-bottom-right-radius: 0px !important;
-    /* padding-left: 50px !important; */
-  /* }
-  .body-text {
-    float: left !important;
-    width: 98% !important;
-    flex: 98% !important;
-    border: 3px solid #3EBCEF !important;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-    padding-right: 0px !important;
+@media screen and (max-width: 768px) {
+
+  .MobilePanel {
+    width: 100%;
+    height: 20vh !important;
     background-color: #000033;
+    z-index: 5;
   }
-  .VidsPics {
-    width: 400px !important;
+
+  .ToCPanel {
+    visibility: hidden;
+    pointer-events: none;
+    max-width: 0% !important;
   }
-  .legend-control-container {
-    width: 200px !important;
-    height: 90px !important;
+
+  #infoPanel {
+    width: 100% !important;
+    border-radius: 10px !important;
   }
-  .leaflet-top.leaflet-left,
-  .leaflet-control-zoom.leaflet-bar.leaflet-control {
-    right:0 !important;
-    margin-right: 10px !important;
+
+  .mainContainer {
+    width: 100%;
+    border-radius: 10px !important;
   }
-  .footer {
-    position: fixed !important;
-    bottom: 0px !important;
+
+  #welcomeContainer {
+    width: 100%;
+    border-radius: 10px !important;
   }
-  .leaflet-control-zoom.leaflet-bar.leaflet-control,
-  .leaflet-touch.leaflet-bar {
-    padding-top: 190px !important;
+
+  .welcomeText {
+    padding-top: 25vh !important;
   }
-} */
+
+  #mapPanel {
+    width: 100% !important;
+    border-radius: 10px !important;
+    overflow-y: scroll !important;
+  }
+
+  .japanRow {
+    padding-top: 15vh !important;
+  }
+
+  #AfricaMap {
+    padding-top: 2vh !important;
+    width: 90% !important;
+
+  }
+
+  #JapanProp {
+    padding-top: 1vh !important;
+    width: 95% !important;
+  }
+
+  #VAProject {
+    width: 90% !important;
+  }
+
+  #JapanVacationMap {
+    width: 70% !important;
+  }
+
+  #WWIIMap {
+    width: 98% !important;
+    padding-top: 25%;
+  }
+
+  #JapanInteractiveMap {
+    padding-top: 2vh !important;
+  }
+
+  .japanRow {
+    padding-top: 1vh !important;
+    overflow-y: scroll !important;
+  }
+
+  .japanColumn {
+    padding-left: 25px !important;
+    width: 95% !important;
+    overflow-y: scroll !important;
+    padding-top: 1vh !important;
+  }
+
+}
 
 /* ------ End Test ------ */
+
+/*  S T A R T   O F   D E S K T O P   S T Y L E S */
 
                 /* ------ Main Div ------ */
 .mainContainer {
@@ -178,6 +207,7 @@
 
 .aboutMeLists {
   padding-left: 4%;
+  line-height: 30pt;
 }
 
 .aboutMeList {
@@ -344,6 +374,10 @@
 
 .japanRow {
   padding-top: 3%;
+}
+
+.aboutMeText {
+  line-height: 30pt !important;
 }
 
                       /* A N I M A T I O N   C S S */
