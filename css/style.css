@@ -194,6 +194,7 @@ html {
 
 .portfolioRow3 {
   padding-top: 20px;
+  padding-left: 40px;
 }
 
 .portfolioRow1::after {
@@ -218,6 +219,7 @@ html {
     display: inline-block;
     width: auto;
 }
+
 .brightness img:hover {
     border:2.5px solid #333366;
     box-shadow: 0 0 10px #333366;
@@ -247,6 +249,15 @@ html {
 .socialmedia img:hover {
   opacity: .5;
   transition: .3s ease;
+}
+
+#WWIIEurope {
+  border-radius: 10px;
+  padding-top: 3vh;
+}
+
+#WWIIEurope-Thumb {
+  border-radius: 10px !important;
 }
 
         /* PORTFOLIO PAGES */
@@ -340,6 +351,23 @@ html {
 
 .aboutMeText {
   line-height: 30pt !important;
+}
+
+#prom {
+  border-radius: 10px;
+  padding-top: 3vh;
+}
+
+#Switzerland {
+  padding-top: 4vh;
+}
+
+#camp {
+  padding-top: 2.5vh;
+}
+
+#TCUGrad1 {
+  padding-top: 2vh;
 }
 
 /* animation css formerly here */

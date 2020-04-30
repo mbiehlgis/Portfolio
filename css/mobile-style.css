@@ -136,9 +136,14 @@
     padding-left: 5% !important;
   }
 
+  #WWIIEurope {
+    border-radius: 10px;
+    padding-top: 10vh !important;
+  }
+
   #WWIIEurope-Thumb {
-    padding-top: 15%;
     width: 100% !important;
+    border-radius: 10px !important;
   }
 
   #JapanInteractive-Thumb {
@@ -219,6 +224,18 @@
     width: 275% !important;
     overflow-x: scroll !important;
     white-space: nowrap !important;
+  }
+
+  #Switzerland {
+    padding-top: 3vh !important;
+  }
+
+  #camp {
+    padding-top: 2.5vh !important;
+  }
+
+  #TCUGrad1 {
+    padding-top: 1vh !important;
   }
 
 }
