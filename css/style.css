@@ -9,7 +9,7 @@ html {
     width: 100%;
     height: 20vh !important;
     background-color: #000033;
-    z-index: 5;
+    z-index: 2 !important;
   }
 
   .ToCPanel {
@@ -23,6 +23,7 @@ html {
     border-radius: 10px !important;
   }
 
+  /* MOBILE WELCOME CONTAINER */
   .mainContainer {
     width: 100%;
     border-radius: 10px !important;
@@ -34,8 +35,43 @@ html {
   }
 
   .welcomeText {
-    padding-top: 25vh !important;
+    padding-top: 10vh !important;
+    width: 90% !important;
   }
+
+  .mobile-Pfp{
+    visibility: visible !important;
+    bottom: 33vh !important;
+  }
+
+  .mobile-mediaRow {
+    visibility: visible !important;
+    z-index: 5 !important;
+    bottom: 20vh !important;
+  }
+
+  .mobile-mediaColumn {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    visibility: visible !important;
+    pointer-events: all !important;
+    z-index: 10 !important;
+  }
+
+  .mobile-mediaRow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .mobile-socialmedia {
+    visibility: visible !important;
+    pointer-events: all !important;
+    z-index: 11 !important;
+  }
+
+  /* MOBILE PORTFOLIO */
 
   #mapPanel {
     width: 100% !important;
@@ -127,6 +163,11 @@ html {
   padding-top: 40px;
 }
 
+.mobile-Pfp{
+  position: absolute;
+  visibility: hidden;
+}
+
 .mediaColumn {
   float: left;
   width: 33.33%;
@@ -135,6 +176,19 @@ html {
 
 .mediaRow {
   padding-top: 20px;
+}
+
+.mobile-mediaRow {
+  visibility: hidden;
+  position: absolute;
+}
+
+.mobile-mediaColumn {
+  visibility: hidden;
+}
+
+.mobile-socialmedia {
+  visibility: hidden;
 }
 
 .mediaRow::after {
@@ -393,6 +447,7 @@ html {
     width: 100%;
     height:100vh;
     overflow-y: scroll;
+    z-index: 0;
 }
 
 .circles{
@@ -411,7 +466,7 @@ html {
     width: 20px;
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
-    animation: animate 25s linear infinite;
+    animation: animate 10s linear infinite;
     bottom: -150px;
 
 }
