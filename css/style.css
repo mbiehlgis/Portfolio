@@ -133,11 +133,30 @@ html {
   padding-left: 4%;
 }
 
+.aboutmeTitle {
+  font-size: 15pt;
+  color: #333366;
+  font-family: Quicksand;
+}
+
+.favorites-title {
+  font-size: 20pt;
+  font-family: Quicksand;
+  color: #333366;
+}
+
 .aboutMeText {
   color: #333366;
   font-family: Quicksand;
   padding-left: 3%;
   padding-right: 3%;
+}
+
+.aboutmePara {
+  padding-left: 60px;
+  font-family: Quicksand;
+  color: #333366;
+  font-size: 12pt;
 }
 
 .aboutMeLists {
@@ -148,7 +167,7 @@ html {
 .aboutMeList {
   color: #333366;
   font-family: Quicksand;
-  padding-left: 5%;
+  padding-left: 7%;
   padding-right: 3%;
 }
 
