@@ -32,19 +32,20 @@
   }
 
   .welcomeText {
-    padding-top: 10vh !important;
+    padding-top: 5vh !important;
     width: 90% !important;
+    font-size: 30pt !important;
   }
 
   .mobile-Pfp{
     visibility: visible !important;
-    bottom: 33vh !important;
+    bottom: 28vh !important;
   }
 
   .mobile-mediaRow {
     visibility: visible !important;
     z-index: 5 !important;
-    bottom: 15vh !important;
+    bottom: 10vh !important;
   }
 
   .mobile-mediaColumn {
