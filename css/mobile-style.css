@@ -1,0 +1,202 @@
+/* ------ Testing Responsive Mobile Design ------ */
+@media screen and (max-width: 768px) {
+
+  .MobilePanel {
+    width: 100%;
+    height: 20vh !important;
+    background-color: #000033;
+    z-index: 2 !important;
+    overflow-x: none !important;
+  }
+
+  .ToCPanel {
+    visibility: hidden;
+    pointer-events: none;
+    max-width: 0% !important;
+  }
+
+  #infoPanel {
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+
+  /* MOBILE WELCOME CONTAINER */
+  .mainContainer {
+    width: 100%;
+    border-radius: 10px !important;
+  }
+
+  #welcomeContainer {
+    width: 100%;
+    border-radius: 10px !important;
+  }
+
+  .welcomeText {
+    padding-top: 10vh !important;
+    width: 90% !important;
+  }
+
+  .mobile-Pfp{
+    visibility: visible !important;
+    bottom: 33vh !important;
+  }
+
+  .mobile-mediaRow {
+    visibility: visible !important;
+    z-index: 5 !important;
+    bottom: 15vh !important;
+  }
+
+  .mobile-mediaColumn {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    visibility: visible !important;
+    pointer-events: all !important;
+    z-index: 10 !important;
+  }
+
+  .mobile-mediaRow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .mobile-socialmedia {
+    visibility: visible !important;
+    pointer-events: all !important;
+    z-index: 11 !important;
+  }
+
+  /* MOBILE PORTFOLIO */
+
+/* Portfolio Row 1 */
+  .Portfolio-Wrapper1 {
+    width: 100% !important;
+    overflow-x: scroll;
+    white-space: nowrap !important;
+  }
+
+  .portfolioRow1 {
+    width: 275% !important;
+    overflow-x: scroll !important;
+    white-space: nowrap !important;
+  }
+
+  #JapanBike-Thumb {
+    width: 100% !important;
+    padding-left: 0% !important;
+  }
+
+  #VAProject-Thumb {
+    width: 100% !important;
+  }
+
+  #Bioshock-Thumb {
+    width: 100% !important;
+  }
+
+/* Portfolio Row 2 */
+  .Portfolio-Wrapper2 {
+    width: 100% !important;
+    overflow-x: scroll;
+    white-space: nowrap !important;
+  }
+
+  .portfolioRow2 {
+    width: 275% !important;
+    overflow-x: scroll !important;
+    white-space: nowrap !important;
+  }
+
+  #JapanVacation-Thumb {
+    width: 90% !important;
+    padding-left: 0% !important;
+  }
+
+  #Africa-Thumb {
+    width: 105% !important;
+  }
+
+  #JapanProp-Thumb {
+    width: 90% !important;
+  }
+
+/* Portfolio Row 3 */
+  .Portfolio-Wrapper3 {
+    width: 100% !important;
+    overflow-x: scroll;
+    white-space: nowrap !important;
+  }
+
+  .portfolioRow3 {
+    width: 280% !important;
+    overflow-x: scroll !important;
+    white-space: nowrap !important;
+    padding-left: 5% !important;
+  }
+
+  #WWIIEurope-Thumb {
+    padding-top: 15%;
+    width: 100% !important;
+  }
+
+  #JapanInteractive-Thumb {
+    width: 100% !important;
+  }
+
+
+  /* MOBILE FOR OTHER PAGES */
+
+  #mapPanel {
+    width: 100% !important;
+    border-radius: 10px !important;
+    overflow-y: scroll !important;
+  }
+
+  .japanRow {
+    padding-top: 15vh !important;
+  }
+
+  #AfricaMap {
+    padding-top: 2vh !important;
+    width: 90% !important;
+
+  }
+
+  #JapanProp {
+    padding-top: 1vh !important;
+    width: 95% !important;
+  }
+
+  #VAProject {
+    width: 90% !important;
+  }
+
+  #JapanVacationMap {
+    width: 70% !important;
+  }
+
+  #WWIIMap {
+    width: 98% !important;
+    padding-top: 25%;
+  }
+
+  #JapanInteractiveMap {
+    padding-top: 3vh !important;
+    width: 97% !important;
+  }
+
+  .japanRow {
+    padding-top: 1vh !important;
+    overflow-y: scroll !important;
+  }
+
+  .japanColumn {
+    padding-left: 25px !important;
+    width: 95% !important;
+    overflow-y: scroll !important;
+    padding-top: 1vh !important;
+  }
+
+}
