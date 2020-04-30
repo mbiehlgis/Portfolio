@@ -68,6 +68,12 @@
     z-index: 11 !important;
   }
 
+  .mobile-socialmedia img:hover {
+    opacity: .5 !important;
+    transition: .3s ease !important;
+  }
+
+
   /* MOBILE PORTFOLIO */
 
 /* Portfolio Row 1 */
