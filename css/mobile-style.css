@@ -3,15 +3,42 @@
 /* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS */
 /* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS */
 /* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS *//* FOR MOBILE PHONES AND IPADS */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
-  .MobilePanel {
-    width: 100%;
-    height: 20vh !important;
-    background-color: #000033;
-    z-index: 2 !important;
-    overflow-x: none !important;
+  #mobile-panel-container {
+    padding-left: 0px;
   }
+
+  #mobile-panel {
+    width: 100% !important;
+    height: 20vh !important;
+    position: fixed;
+    z-index: 5 !important;
+    overflow-x: none !important;
+    bottom: -9% !important;
+    pointer-events: none;
+  }
+
+  #mobile-panel::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #mobile-toc-row {
+    background-color: #000033 !important;
+  }
+
+
+  #mobile-toc-column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    visibility: visible !important;
+    pointer-events: all !important;
+    background-color: #000033 !important;
+  }
+
 
   .ToCPanel {
     visibility: hidden;
@@ -49,7 +76,7 @@
   .mobile-mediaRow {
     visibility: visible !important;
     z-index: 5 !important;
-    bottom: 10vh !important;
+    bottom: 12vh !important;
   }
 
   .mobile-mediaColumn {

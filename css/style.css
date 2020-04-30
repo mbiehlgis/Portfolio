@@ -4,6 +4,23 @@ html {
 
 /* mobile css formerly here */
 
+#mobile-panel {
+  visibility: none;
+}
+
+#mobile-panel::after {
+  visibility: none;
+}
+
+#mobile-toc-row {
+  visibility: none;
+}
+
+#mobile-toc-column {
+  visibility: none;
+}
+
+
 /*  S T A R T   O F   D E S K T O P   S T Y L E S */
 
                 /* ------ Main Div ------ */
@@ -26,7 +43,9 @@ html {
   margin-right: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  -ms-overflow-style: none
+  -ms-overflow-style: none;
+  visibility: visible !important;
+  z-index: 10 !important;
 }
 
 /* Hidden Scroll for Chrome/Safari */
@@ -130,7 +149,7 @@ html {
 }
 
 .aboutMe {
-  padding-left: 4%;
+  padding-left: 2%;
 }
 
 .aboutmeTitle {
@@ -153,7 +172,7 @@ html {
 }
 
 .aboutmePara {
-  padding-left: 60px;
+  padding-left: 4%;
   font-family: Quicksand;
   color: #333366;
   font-size: 12pt;
