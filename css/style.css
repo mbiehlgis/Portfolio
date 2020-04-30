@@ -72,7 +72,8 @@ html {
   }
 
   #JapanInteractiveMap {
-    padding-top: 2vh !important;
+    padding-top: 3vh !important;
+    width: 97% !important;
   }
 
   .japanRow {
