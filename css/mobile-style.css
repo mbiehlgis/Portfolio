@@ -199,4 +199,26 @@
     padding-top: 1vh !important;
   }
 
+  /* MOBILE RESUME */
+  #UW {
+    width: 15% !important;
+  }
+
+  #TCU {
+    width: 15% !important;
+  }
+
+  /* MOBILE ABOUT ME */
+  .AboutMe-Wrapper1 {
+    width: 100% !important;
+    overflow-x: scroll;
+    white-space: nowrap !important;
+  }
+
+  .aboutmeRow1 {
+    width: 275% !important;
+    overflow-x: scroll !important;
+    white-space: nowrap !important;
+  }
+
 }

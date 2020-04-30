@@ -180,6 +180,10 @@ html {
   padding: 5px;
 }
 
+.portfolioColumn img {
+  border-radius: 8px;
+}
+
 .portfolioRow1 {
   padding-top: 20px;
 }
@@ -309,6 +313,29 @@ html {
 
 .japanRow {
   padding-top: 3%;
+}
+
+/* ABOUT ME STYLES */
+
+.aboutmeColumn {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.aboutmeColumn img {
+  border-radius: 5px;
+}
+
+.aboutmeRow1 {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.aboutmeRow1::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .aboutMeText {
