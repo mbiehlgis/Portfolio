@@ -148,6 +148,10 @@ html {
   font-size: 30pt;
 }
 
+#mobilehint {
+  visibility: hidden;
+}
+
 .aboutMe {
   padding-left: 2%;
 }
@@ -412,3 +416,17 @@ html {
 }
 
 /* animation css formerly here */
+
+
+
+/* CHROME ONLY */
+
+
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    .Pfp img:hover {
+      opacity: .6;
+      transition: .3s ease;
+    }
+}

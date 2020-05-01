@@ -29,7 +29,6 @@
     background-color: #000033 !important;
   }
 
-
   #mobile-toc-column {
     float: left;
     width: 25%;
@@ -39,6 +38,10 @@
     background-color: #000033 !important;
   }
 
+  #mobile-toc-column img:active {
+    opacity: .4 !important;
+    transition: .2s ease !important;
+  }
 
   .ToCPanel {
     visibility: hidden;
@@ -100,7 +103,7 @@
     z-index: 11 !important;
   }
 
-  .mobile-socialmedia img:hover {
+  .mobile-socialmedia img:active {
     opacity: .5 !important;
     transition: .3s ease !important;
   }
@@ -108,7 +111,15 @@
 
   /* MOBILE PORTFOLIO */
 
+#mobilehint {
+  font-size: 10pt !important;
+  padding-left: 4% !important;
+  color: #000033 !important;
+  visibility: visible !important;
+}
+
 /* Portfolio Row 1 */
+
   .Portfolio-Wrapper1 {
     width: 100% !important;
     overflow-x: scroll;
@@ -368,7 +379,7 @@
     z-index: 11 !important;
   }
 
-  .mobile-socialmedia img:hover {
+  .mobile-socialmedia img:active {
     opacity: .5 !important;
     transition: .3s ease !important;
   }
