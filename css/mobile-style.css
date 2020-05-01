@@ -303,6 +303,56 @@
     padding-top: 1vh !important;
   }
 
+  /* MOBILE FAVORITES */
+
+  .Fave-Wrapper {
+    width: 100% !important;
+    overflow-x: scroll;
+    white-space: nowrap !important;
+  }
+
+  .fave-row {
+    width: 275% !important;
+    overflow-x: scroll !important;
+    white-space: nowrap !important;
+  }
+
+  #Rules-Thumb {
+    width: 95% !important;
+  }
+
+  #Fahrenheit-Thumb {
+    width: 90% !important;
+  }
+
+  #Martian-Thumb {
+    width: 93% !important;
+  }
+
+  #Paradox-Thumb {
+    width: 93% !important;
+  }
+
+  #AllQuiet-Thumb {
+    width: 85% !important;
+  }
+
+  #CloneWars-Thumb {
+    width: 80% !important;
+  }
+
+  #MyHero-Thumb {
+    width: 80% !important;
+  }
+
+  #GOT-Thumb {
+    width: 81% !important;
+  }
+
+  #Naruto-Thumb {
+    width: 81% !important;
+  }
+
 }
 
 /* FOR IPAD PRO */ /* FOR IPAD PRO *//* FOR IPAD PRO *//* FOR IPAD PRO *//* FOR IPAD PRO *//* FOR IPAD PRO *//* FOR IPAD PRO */
@@ -587,6 +637,60 @@
 
   .favorites-title {
     font-size: 24pt !important;
+  }
+
+  /* MOBILE FAVORITES */
+
+  .Fave-Wrapper {
+    width: 100% !important;
+    overflow-x: scroll;
+    white-space: nowrap !important;
+  }
+
+  .fave-row {
+    width: 275% !important;
+    overflow-x: scroll !important;
+    white-space: nowrap !important;
+  }
+
+  #Rules-Thumb {
+    width: 85% !important;
+  }
+
+  #Fahrenheit-Thumb {
+    width: 100% !important;
+  }
+
+  #Martian-Thumb {
+    width: 76% !important;
+  }
+
+  #Paradox-Thumb {
+    width: 150% !important;
+  }
+
+  #AllQuiet-Thumb {
+    width: 70% !important;
+  }
+
+  #SVP-Thumb {
+    width: 162% !important;
+  }
+
+  #CloneWars-Thumb {
+    width: 80% !important;
+  }
+
+  #MyHero-Thumb {
+    width: 105% !important;
+  }
+
+  #GOT-Thumb {
+    width: 81% !important;
+  }
+
+  #Naruto-Thumb {
+    width: 81% !important;
   }
 
 }

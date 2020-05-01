@@ -370,9 +370,6 @@ html {
 
 /* ABOUT ME STYLES */
 
-.AboutMe-Wrapper1 {
-}
-
 .aboutmeColumn {
   float: left;
   width: 25%;
@@ -414,6 +411,27 @@ html {
 #TCUGrad1 {
   padding-top: 2vh;
 }
+
+/* FAVORITE THINGS LISTS */
+
+.fave-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fave-column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.fave {
+  display: inline-block;
+  width: auto;
+}
+
+
 
 /* animation css formerly here */
 
