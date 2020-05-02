@@ -93,11 +93,21 @@ html {
 }
 
 .tableOfContents {
-  color: #ffffff;
   font-size: 16pt;
   font-family: Quicksand;
   padding-top: 40px;
   font-style: bolder;
+  text-decoration: none;
+}
+
+#pagelinks {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tableOfContents p:hover {
+  color: cyan;
+  transition: 0s ease;
 }
 
 #footer{
