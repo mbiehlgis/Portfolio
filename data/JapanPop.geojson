@@ -1,0 +1,945 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Hokkaido",
+        "Pop_1980": 5576000,
+        "Pop_1985": 5679000,
+        "Pop_1990": 5644000,
+        "Pop_1995": 5692000,
+        "Pop_2000": 5683000,
+        "Pop_2005": 5628000,
+        "Pop_2010": 5506000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.777095,
+          43.449217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Aomori",
+        "Pop_1980": 1524000,
+        "Pop_1985": 1524000,
+        "Pop_1990": 1483000,
+        "Pop_1995": 1482000,
+        "Pop_2000": 1476000,
+        "Pop_2005": 1437000,
+        "Pop_2010": 1373000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.966552,
+          40.699468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Iwate",
+        "Pop_1980": 1422000,
+        "Pop_1985": 1434000,
+        "Pop_1990": 1417000,
+        "Pop_1995": 1420000,
+        "Pop_2000": 1416000,
+        "Pop_2005": 1385000,
+        "Pop_2010": 1330000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.373403,
+          39.572697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Miyagi",
+        "Pop_1980": 2082000,
+        "Pop_1985": 2176000,
+        "Pop_1990": 2249000,
+        "Pop_1995": 2329000,
+        "Pop_2000": 2365000,
+        "Pop_2005": 2360000,
+        "Pop_2010": 2348000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.875798,
+          38.573864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Akita",
+        "Pop_1980": 1257000,
+        "Pop_1985": 1254000,
+        "Pop_1990": 1227000,
+        "Pop_1995": 1214000,
+        "Pop_2000": 1189000,
+        "Pop_2005": 1146000,
+        "Pop_2010": 1086000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.415133,
+          39.764912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Yamagata",
+        "Pop_1980": 1252000,
+        "Pop_1985": 1262000,
+        "Pop_1990": 1258000,
+        "Pop_1995": 1257000,
+        "Pop_2000": 1244000,
+        "Pop_2005": 1216000,
+        "Pop_2010": 1169000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.13739,
+          38.624156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Fukushima",
+        "Pop_1980": 2035000,
+        "Pop_1985": 2080000,
+        "Pop_1990": 2104000,
+        "Pop_1995": 2134000,
+        "Pop_2000": 2127000,
+        "Pop_2005": 2091000,
+        "Pop_2010": 2029000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.521022,
+          37.372318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Ibaraki",
+        "Pop_1980": 2558000,
+        "Pop_1985": 2725000,
+        "Pop_1990": 2845000,
+        "Pop_1995": 2956000,
+        "Pop_2000": 2986000,
+        "Pop_2005": 2975000,
+        "Pop_2010": 2970000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.307438,
+          36.158025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Tochigi",
+        "Pop_1980": 1792000,
+        "Pop_1985": 1866000,
+        "Pop_1990": 1935000,
+        "Pop_1995": 1984000,
+        "Pop_2000": 2005000,
+        "Pop_2005": 2017000,
+        "Pop_2010": 2008000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825431,
+          36.714324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Gumma",
+        "Pop_1980": 1849000,
+        "Pop_1985": 1921000,
+        "Pop_1990": 1966000,
+        "Pop_1995": 2004000,
+        "Pop_2000": 2025000,
+        "Pop_2005": 2024000,
+        "Pop_2010": 2008000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.035028,
+          36.5565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Saitama",
+        "Pop_1980": 5420000,
+        "Pop_1985": 5864000,
+        "Pop_1990": 6405000,
+        "Pop_1995": 6759000,
+        "Pop_2000": 6938000,
+        "Pop_2005": 7054000,
+        "Pop_2010": 7195000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.356126,
+          36.022293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Chiba",
+        "Pop_1980": 4735000,
+        "Pop_1985": 5148000,
+        "Pop_1990": 5555000,
+        "Pop_1995": 5798000,
+        "Pop_2000": 5926000,
+        "Pop_2005": 6056000,
+        "Pop_2010": 6216000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.302775,
+          35.66064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Tokyo",
+        "Pop_1980": 11618000,
+        "Pop_1985": 11829000,
+        "Pop_1990": 11856000,
+        "Pop_1995": 11774000,
+        "Pop_2000": 12064000,
+        "Pop_2005": 12577000,
+        "Pop_2010": 13159000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.393288,
+          35.675099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Kanagawa",
+        "Pop_1980": 6924000,
+        "Pop_1985": 7432000,
+        "Pop_1990": 7980000,
+        "Pop_1995": 8246000,
+        "Pop_2000": 8490000,
+        "Pop_2005": 8792000,
+        "Pop_2010": 9048000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.298308,
+          35.455659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Niigata",
+        "Pop_1980": 2451000,
+        "Pop_1985": 2478000,
+        "Pop_1990": 2475000,
+        "Pop_1995": 2488000,
+        "Pop_2000": 2476000,
+        "Pop_2005": 2431000,
+        "Pop_2010": 2374000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.844717,
+          37.265865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Toyama",
+        "Pop_1980": 1103000,
+        "Pop_1985": 1118000,
+        "Pop_1990": 1120000,
+        "Pop_1995": 1123000,
+        "Pop_2000": 1121000,
+        "Pop_2005": 1112000,
+        "Pop_2010": 1093000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.274304,
+          36.611895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Ishikawa",
+        "Pop_1980": 1119000,
+        "Pop_1985": 1152000,
+        "Pop_1990": 1165000,
+        "Pop_1995": 1180000,
+        "Pop_2000": 1181000,
+        "Pop_2005": 1174000,
+        "Pop_2010": 1170000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.590271,
+          36.343617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Fukui",
+        "Pop_1980": 794000,
+        "Pop_1985": 818000,
+        "Pop_1990": 824000,
+        "Pop_1995": 827000,
+        "Pop_2000": 829000,
+        "Pop_2005": 822000,
+        "Pop_2010": 806000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.234931,
+          35.98444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Yamanashi",
+        "Pop_1980": 804000,
+        "Pop_1985": 833000,
+        "Pop_1990": 853000,
+        "Pop_1995": 882000,
+        "Pop_2000": 888000,
+        "Pop_2005": 885000,
+        "Pop_2010": 863000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.72757,
+          35.636944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Nagano",
+        "Pop_1980": 2084000,
+        "Pop_1985": 2137000,
+        "Pop_1990": 2157000,
+        "Pop_1995": 2194000,
+        "Pop_2000": 2215000,
+        "Pop_2005": 2196000,
+        "Pop_2010": 2152000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.053928,
+          36.233925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Gifu",
+        "Pop_1980": 1960000,
+        "Pop_1985": 2029000,
+        "Pop_1990": 2067000,
+        "Pop_1995": 2100000,
+        "Pop_2000": 2108000,
+        "Pop_2005": 2107000,
+        "Pop_2010": 2081000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.064236,
+          35.699484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Shizuoka",
+        "Pop_1980": 3447000,
+        "Pop_1985": 3575000,
+        "Pop_1990": 3671000,
+        "Pop_1995": 3738000,
+        "Pop_2000": 3767000,
+        "Pop_2005": 3792000,
+        "Pop_2010": 3765000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.061706,
+          34.99611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Aichi",
+        "Pop_1980": 6222000,
+        "Pop_1985": 6455000,
+        "Pop_1990": 6691000,
+        "Pop_1995": 6868000,
+        "Pop_2000": 7043000,
+        "Pop_2005": 7255000,
+        "Pop_2010": 7411000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.259429,
+          35.040169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Mie",
+        "Pop_1980": 1687000,
+        "Pop_1985": 1747000,
+        "Pop_1990": 1793000,
+        "Pop_1995": 1841000,
+        "Pop_2000": 1857000,
+        "Pop_2005": 1867000,
+        "Pop_2010": 1855000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.414169,
+          34.448957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Shiga",
+        "Pop_1980": 1080000,
+        "Pop_1985": 1156000,
+        "Pop_1990": 1222000,
+        "Pop_1995": 1287000,
+        "Pop_2000": 1343000,
+        "Pop_2005": 1380000,
+        "Pop_2010": 1411000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.128153,
+          35.212375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Kyoto",
+        "Pop_1980": 2527000,
+        "Pop_1985": 2587000,
+        "Pop_1990": 2602000,
+        "Pop_1995": 2630000,
+        "Pop_2000": 2644000,
+        "Pop_2005": 2648000,
+        "Pop_2010": 2636000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.581264,
+          35.174408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Osaka",
+        "Pop_1980": 8473000,
+        "Pop_1985": 8668000,
+        "Pop_1990": 8735000,
+        "Pop_1995": 8797000,
+        "Pop_2000": 8805000,
+        "Pop_2005": 8817000,
+        "Pop_2010": 8865000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.557903,
+          34.685181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Hyogo",
+        "Pop_1980": 5145000,
+        "Pop_1985": 5278000,
+        "Pop_1990": 5405000,
+        "Pop_1995": 5402000,
+        "Pop_2000": 5551000,
+        "Pop_2005": 5591000,
+        "Pop_2010": 5588000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.86514,
+          35.034343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Nara",
+        "Pop_1980": 1209000,
+        "Pop_1985": 1305000,
+        "Pop_1990": 1375000,
+        "Pop_1995": 1431000,
+        "Pop_2000": 1443000,
+        "Pop_2005": 1421000,
+        "Pop_2010": 1401000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.891749,
+          34.327889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Wakayama",
+        "Pop_1980": 1087000,
+        "Pop_1985": 1087000,
+        "Pop_1990": 1074000,
+        "Pop_1995": 1080000,
+        "Pop_2000": 1070000,
+        "Pop_2005": 1036000,
+        "Pop_2010": 1002000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.417082,
+          33.936215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Tottori",
+        "Pop_1980": 604000,
+        "Pop_1985": 616000,
+        "Pop_1990": 616000,
+        "Pop_1995": 615000,
+        "Pop_2000": 613000,
+        "Pop_2005": 607000,
+        "Pop_2010": 589000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.838924,
+          35.408794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Shimane",
+        "Pop_1980": 785000,
+        "Pop_1985": 795000,
+        "Pop_1990": 781000,
+        "Pop_1995": 771000,
+        "Pop_2000": 762000,
+        "Pop_2005": 742000,
+        "Pop_2010": 717000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.512404,
+          35.019795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Okayama",
+        "Pop_1980": 1871000,
+        "Pop_1985": 1917000,
+        "Pop_1990": 1926000,
+        "Pop_1995": 1951000,
+        "Pop_2000": 1951000,
+        "Pop_2005": 1957000,
+        "Pop_2010": 1945000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.803375,
+          34.912424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Hiroshima",
+        "Pop_1980": 2739000,
+        "Pop_1985": 2819000,
+        "Pop_1990": 2850000,
+        "Pop_1995": 2882000,
+        "Pop_2000": 2879000,
+        "Pop_2005": 2877000,
+        "Pop_2010": 2861000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.787379,
+          34.585676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Yamaguchi",
+        "Pop_1980": 1587000,
+        "Pop_1985": 1602000,
+        "Pop_1990": 1573000,
+        "Pop_1995": 1556000,
+        "Pop_2000": 1528000,
+        "Pop_2005": 1493000,
+        "Pop_2010": 1451000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.561973,
+          34.252771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Tokushima",
+        "Pop_1980": 825000,
+        "Pop_1985": 835000,
+        "Pop_1990": 832000,
+        "Pop_1995": 832000,
+        "Pop_2000": 824000,
+        "Pop_2005": 810000,
+        "Pop_2010": 785000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.2751,
+          33.920016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Kagawa",
+        "Pop_1980": 1000000,
+        "Pop_1985": 1023000,
+        "Pop_1990": 1023000,
+        "Pop_1995": 1027000,
+        "Pop_2000": 1023000,
+        "Pop_2005": 1012000,
+        "Pop_2010": 996000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.973674,
+          34.224037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Ehime",
+        "Pop_1980": 1507000,
+        "Pop_1985": 1530000,
+        "Pop_1990": 1515000,
+        "Pop_1995": 1507000,
+        "Pop_2000": 1493000,
+        "Pop_2005": 1468000,
+        "Pop_2010": 1431000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.906995,
+          33.767778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Kochi",
+        "Pop_1980": 831000,
+        "Pop_1985": 840000,
+        "Pop_1990": 825000,
+        "Pop_1995": 817000,
+        "Pop_2000": 814000,
+        "Pop_2005": 796000,
+        "Pop_2010": 764000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.367512,
+          33.627502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Fukuoka",
+        "Pop_1980": 4553000,
+        "Pop_1985": 4719000,
+        "Pop_1990": 4811000,
+        "Pop_1995": 4933000,
+        "Pop_2000": 5016000,
+        "Pop_2005": 5050000,
+        "Pop_2010": 5072000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.704837,
+          33.624186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Saga",
+        "Pop_1980": 866000,
+        "Pop_1985": 880000,
+        "Pop_1990": 878000,
+        "Pop_1995": 884000,
+        "Pop_2000": 877000,
+        "Pop_2005": 866000,
+        "Pop_2010": 850000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.088743,
+          33.293482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Nagasaki",
+        "Pop_1980": 1591000,
+        "Pop_1985": 1594000,
+        "Pop_1990": 1563000,
+        "Pop_1995": 1545000,
+        "Pop_2000": 1517000,
+        "Pop_2005": 1479000,
+        "Pop_2010": 1427000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.02718,
+          32.925538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Kumamoto",
+        "Pop_1980": 1790000,
+        "Pop_1985": 1838000,
+        "Pop_1990": 1840000,
+        "Pop_1995": 1860000,
+        "Pop_2000": 1859000,
+        "Pop_2005": 1842000,
+        "Pop_2010": 1817000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.871033,
+          32.777443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Oita",
+        "Pop_1980": 1229000,
+        "Pop_1985": 1250000,
+        "Pop_1990": 1237000,
+        "Pop_1995": 1231000,
+        "Pop_2000": 1221000,
+        "Pop_2005": 1210000,
+        "Pop_2010": 1197000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.428905,
+          33.090764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Miyazaki",
+        "Pop_1980": 1152000,
+        "Pop_1985": 1176000,
+        "Pop_1990": 1169000,
+        "Pop_1995": 1176000,
+        "Pop_2000": 1170000,
+        "Pop_2005": 1153000,
+        "Pop_2010": 1135000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.337844,
+          32.277512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Kagoshima",
+        "Pop_1980": 1785000,
+        "Pop_1985": 1819000,
+        "Pop_1990": 1798000,
+        "Pop_1995": 1794000,
+        "Pop_2000": 1786000,
+        "Pop_2005": 1753000,
+        "Pop_2010": 1706000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.456094,
+          31.882039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Prefecture": "Okinawa ",
+        "Pop_1980": 1107000,
+        "Pop_1985": 1179000,
+        "Pop_1990": 1222000,
+        "Pop_1995": 1273000,
+        "Pop_2000": 1318000,
+        "Pop_2005": 1362000,
+        "Pop_2010": 1393000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.073892,
+          26.59508
+        ]
+      }
+    }
+  ]
+}

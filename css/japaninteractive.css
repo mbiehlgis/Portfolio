@@ -1,0 +1,213 @@
+/* ------ Testing Responsive Mobile Design ------ */
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 300px !important;
+    border-bottom: 10px !important;
+    border-bottom: 10px !important;
+  }
+  h1 {
+    font-size: 14pt !important;
+    letter-spacing: normal !important;
+  }
+  h2 {
+    font-size: 9pt !important;
+  }
+  .mainContainer {
+    overflow: visible !important;
+  }
+  #mapid {
+    height: 400px !important;
+    float: left !important;
+    width: 98% !important;
+    flex: 98% !important;
+    border: 3px solid #3EBCEF !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 0px !important;
+    /* padding-left: 50px !important; */
+  }
+  .body-text {
+    float: left !important;
+    width: 98% !important;
+    flex: 98% !important;
+    border: 3px solid #3EBCEF !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    padding-right: 0px !important;
+  }
+  .VidsPics {
+    width: 400px !important;
+  }
+  .legend-control-container {
+    width: 200px !important;
+    height: 90px !important;
+  }
+  .leaflet-top.leaflet-left,
+  .leaflet-control-zoom.leaflet-bar.leaflet-control {
+    right:0 !important;
+    margin-right: 10px !important;
+  }
+  .footer {
+    position: fixed !important;
+    bottom: 0px !important;
+  }
+  .leaflet-control-zoom.leaflet-bar.leaflet-control,
+  .leaflet-touch.leaflet-bar {
+    padding-top: 190px !important;
+  }
+}
+
+/* ------ End Test ------ */
+
+                /* ------ Main Div ------ */
+.mainContainer {
+  overflow: hidden;
+}
+
+            /* -------- MAP -------- */
+#mapid {
+  position: relative;
+  float: right;
+  flex: 80%;
+  width: 100%;
+  height: 80vh;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+    /* -------- Pop-ups -------- */
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+layer.bindPopup(popupContent, {
+       offset: new L.Point(0,-options.radius)
+   });
+
+
+/* ------- Slider ------ */
+#panel {
+  position: absolute;
+  max-width: 25%;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  line-height: 42px;
+  overflow: hidden;
+}
+
+.range-slider {
+   width: 100%;
+   background: #FF69B4;
+   height: 50px;
+   opacity: 75%;
+   border-radius: 10px;
+   border-color: white;
+}
+
+/* RANGE styles for Firefox */
+input[type="range"]::-moz-range-progress {
+  background-color: white;
+}
+input[type="range"]::-moz-range-track {
+  background-color: white;
+}
+
+.step {
+	width: 40%;
+  /* background: #95003A; deep red color */
+  background: #FF69B4;
+  border-radius: 10px;
+  opacity: 75%;
+}
+
+.step img {
+	width: 40%;
+  background: #FF69B4;
+  border-radius: 10px;
+  /* opacity: 50%; */
+}
+
+#forward {
+  float: right;
+}
+
+#reverse {
+   float: left;
+}
+
+/* -------- Pop-ups Style -------- */
+
+.leaflet-popup-content-wrapper {
+  /* background: #FF69B4; */
+  background: #FF69B4;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  border: white;
+  opacity: 90%
+}
+
+.leaflet-popup-content-wrapper {
+  color: white;
+  font: 13px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+
+                  /* ------ Legend ------ */
+.legend-control-container {
+	font: "Helvetica Neue";
+  text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	background: #FF69B4;
+  color: white;
+  width: 15vw;
+  height: 10vh;
+  opacity: 75%;
+  border-radius: 10%;
+}
+
+#attribute-legend {
+  float: left;
+  padding-left: 20px;
+  font-size: 11px;
+  fill: white !important;
+}
+
+#max-text,
+#mean-text,
+#min-text {
+  fill: white !important;
+}
+
+                  /* ------ Zoom ------ */
+.leaflet-control-zoom.leaflet-bar.leaflet-control,
+.leaflet-touch.leaflet-bar {
+  padding-top: 575px;
+  border: 1px;
+}
+
+.leaflet-touch.leaflet-control-layers,
+.leaflet-touch.leaflet-bar {
+  padding-top: 300px;
+}
+
+.leaflet-bar {
+  box-shadow:none ;
+}
+
+.leaflet-bar a {
+  background-color: #FF69B4;
+  color: white;
+  opacity: 90%;
+}
+
+.leaflet-bar a.leaflet-disabled {
+  background-color: #FF69B4;
+  color: white;
+  opacity: 90%;
+}
