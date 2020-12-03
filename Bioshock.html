@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="css/mobile-style.css">
         <link rel="stylesheet" href="css/tablet-style.css">
         <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="css/bioshock.css">
         <link rel="stylesheet" href="css/style.css">
         <!--[if IE<9]>
             <link rel="stylesheet" href="css/style.ie.css">
@@ -30,12 +32,12 @@
         <div id="mapPanel">
 
             <!-- Welcome Div -->
-            <div id="bioshockContainer">
+            <div id="japanVacationContainer">
 
-              <center><div id="mapbox"><iframe width="940" height="570" src="https://api.mapbox.com/styles/v1/mbiehlgis/ck86q6jjm0h6f1jpacswyunt3.html?fresh=true&title=view&access_token=pk.eyJ1IjoibWJpZWhsZ2lzIiwiYSI6ImNrODZwaW9vODBrNWUzZm1jdjJzeHF0OTkifQ.UpFmEKrUbl4A7qD8nuaHUQ"></iframe></div></center>
-              <!-- <embed src="assets/Maps/JapanBikeTrip.pdf" style="width:80.5%"></embed> -->
+              <div id="mapid"></div>
 
-            </div><br>
+            </div>
+            <br>
 
             <!-- Info Div -->
             <div id="aboutMe">
@@ -48,27 +50,23 @@
                 <b>Title:</b> Bioshock
                 <br>
                 <br>
-                <b>Data Created:</b> <em>March 2020</em>
+                <b>Data Created:</b> <em>April 2020</em>
                 <br>
                 <br>
                 <b>Background</b>
                 <br>
-                For this map, I was tasked with creating a 21 day bike route through a location of my choice. Requirements for
-                the map included: the route be over 3000 km long, the visualization of elevation in the area via shaded relief creation in ArcMap and Photoshop, the visualization of
-                a clear visual hierarchy, bathymetry for oceans, as well as labels for administrative areas and natural landmarks. I must admit, I have rarely ever
-                been as frustrated at a piece of software than when I was creating my relief layers in ArcMap on my PC. I could feel my heart dying each time the dreaded
-                "ArcMap is Not Responding" message knowing I hadn't saved my changes in a while.
+                For this map, I was tasked with creating a custom interactive base-map for a marketing campaign for the videogame <em>Bioshock</em>, which takes place in an underwater
+                20's inspired city. The specifications of the project were that the interactive be usable at a global, country, provincial, and local scale. However they did not require 1:1
+                accuracy as they prioritized the game's Art Deco aestheitic over geographic precision.
                 <br>
                 <br>
                 <b>Description</b>
                 <br>
-                For my map, I chose to visualize a race that would encompass all of mainland Japan. Just based on the shape of Japan, I thought the
-                route would be aesthetically pleasing so long as I made the right color choices. Surprisingly to be however, I found that Japan was primarily just forest and farmland
-                as described from the Land Cover Dataset I was working with, which had me worried in regards to how the terrain would appear once exported to illustrator. Fortunately,
-                I found that the consistent rolling greens worked well with the red race route that would lie over it. My first iteration of this map was actually the darker toned
-                one seen above, however I decided to swap everything to a much lighter and "beach-vibe" palette after watching a youtube video on scuba diving in Okinawa!
-                In the end, I was stuck between which one I would actually submit, so I left it to an instagram story poll which resulted in about 65% of voters preferring the light-mode
-                version.
+                For my map, I chose to have the countries be a darker shade of the color used for the oceans. This in turn allows for the countries to appear submerged under the ocean, just like the
+                setting of the game. Deep beneath the waves however exists the Rapture, a place heavily inspired by the New York City architecture and Art Deco themes, where it's bright lights shine through
+                the pitch darkness of the deep sea. To maintain that theme, I chose to have the boundaries at each scale be brightly lit to mimic those underwater glows. To actually enter the city from the ocean surface,
+                one must enter a lighthouse that houses a submersible elevator within. To replicate that iconic lighthouse, I've gone ahead and marked each city on the map with a bright lighthouse to attract the user's eyes.
+                Lastly, when you zoom in deep into the map, say on Manhattan for instance, you will see that the map adds another dimension where New York's skyline reaches up towards you. Feel free to explore the map yourself!
               </p>
 
             </div>
@@ -119,8 +117,6 @@
             <br>
             <center><p style="color:white; font-size:8pt"> <br> Michael Biehl ©</p><center>
 
-
-
         </div>
 
       </div>
@@ -131,6 +127,8 @@
 
         <!--put your external script links here-->
         <script type="text/javascript" src="lib/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+        <script type="text/javascript" src="js/bioshock.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

@@ -1,0 +1,112 @@
+/* ------ Testing Responsive Mobile Design ------ */
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 300px !important;
+    border-bottom: 10px !important;
+    border-bottom: 10px !important;
+  }
+  h1 {
+    font-size: 14pt !important;
+    letter-spacing: normal !important;
+  }
+  h2 {
+    font-size: 9pt !important;
+  }
+  .mainContainer {
+    overflow: visible !important;
+  }
+  #mapid {
+    height: 400px !important;
+    float: left !important;
+    width: 98% !important;
+    flex: 98% !important;
+    border: 3px solid #3EBCEF !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 0px !important;
+    /* padding-left: 50px !important; */
+  }
+  .body-text {
+    float: left !important;
+    width: 98% !important;
+    flex: 98% !important;
+    border: 3px solid #3EBCEF !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    padding-right: 0px !important;
+  }
+  .VidsPics {
+    width: 400px !important;
+  }
+  .legend-control-container {
+    width: 200px !important;
+    height: 90px !important;
+  }
+  .leaflet-top.leaflet-left,
+  .leaflet-control-zoom.leaflet-bar.leaflet-control {
+    right:0 !important;
+    margin-right: 10px !important;
+  }
+  .footer {
+    position: fixed !important;
+    bottom: 0px !important;
+  }
+  .leaflet-control-zoom.leaflet-bar.leaflet-control,
+  .leaflet-touch.leaflet-bar {
+    padding-top: 190px !important;
+  }
+}
+
+/* ------ End Test ------ */
+
+                /* ------ Main Div ------ */
+.mainContainer {
+  overflow: hidden;
+}
+
+            /* -------- MAP -------- */
+#mapid {
+  position: relative;
+  float: right;
+  flex: 80%;
+  width: 100%;
+  height: 80vh;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+                  /* ------ Zoom ------ */
+.leaflet-control-zoom.leaflet-bar.leaflet-control,
+.leaflet-touch.leaflet-bar {
+  padding-right: 75px;
+  border: 1px;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  width: 500% !important;
+  height: 30px !important;
+}
+
+.leaflet-touch.leaflet-control-layers,
+.leaflet-touch.leaflet-bar {
+  padding-top: 300px;
+}
+
+.leaflet-bar {
+  box-shadow:none ;
+}
+
+.leaflet-bar a {
+  background-color: #FFFFCC;
+  color: #015a5a;
+}
+
+.leaflet-bar a.leaflet-disabled {
+  background-color: #FFFFCC;
+  color: #015a5a;
+}
