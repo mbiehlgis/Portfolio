@@ -209,6 +209,10 @@
     overflow-y: scroll !important;
   }
 
+  #japanVacationContainer {
+    height: 80vh !important;
+  }
+
   .japanRow {
     padding-top: 15vh !important;
   }
@@ -229,7 +233,7 @@
   }
 
   #JapanVacationMap {
-    width: 70% !important;
+    width: 90% !important;
   }
 
   #WWIIMap {

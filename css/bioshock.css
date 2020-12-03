@@ -1,64 +1,73 @@
-/* ------ Testing Responsive Mobile Design ------ */
+/* ------ MOBILE CSS ------ */
 @media screen and (max-width: 768px) {
-  .intro {
-    width: 300px !important;
-    border-bottom: 10px !important;
-    border-bottom: 10px !important;
-  }
-  h1 {
-    font-size: 14pt !important;
-    letter-spacing: normal !important;
-  }
-  h2 {
-    font-size: 9pt !important;
-  }
-  .mainContainer {
-    overflow: visible !important;
-  }
   #mapid {
-    height: 400px !important;
-    float: left !important;
-    width: 98% !important;
-    flex: 98% !important;
+    height: 80vh !important;
+    /* float: left !important; */
+    width: 100% !important;
+    flex: 100% !important;
     border: 3px solid #3EBCEF !important;
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
-    border-bottom-right-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
     /* padding-left: 50px !important; */
   }
-  .body-text {
-    float: left !important;
-    width: 98% !important;
-    flex: 98% !important;
-    border: 3px solid #3EBCEF !important;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-    padding-right: 0px !important;
+
+  #bioshockContainer {
+    height: 80vh !important;
+    border-radius: 10px !important;
   }
-  .VidsPics {
-    width: 400px !important;
-  }
-  .legend-control-container {
-    width: 200px !important;
-    height: 90px !important;
+
   }
   .leaflet-top.leaflet-left,
   .leaflet-control-zoom.leaflet-bar.leaflet-control {
     right:0 !important;
     margin-right: 10px !important;
   }
-  .footer {
-    position: fixed !important;
-    bottom: 0px !important;
-  }
+
   .leaflet-control-zoom.leaflet-bar.leaflet-control,
   .leaflet-touch.leaflet-bar {
     padding-top: 190px !important;
   }
 }
 
-/* ------ End Test ------ */
+/* ------ END MOBILE CSS ------ */
 
+
+
+
+
+/* ------ TABLET CSS ------ *//* ------ TABLET CSS ------ *//* ------ TABLET CSS ------ *//* ------ TABLET CSS ------ *//* ------ TABLET CSS ------ *//* ------ TABLET CSS ------ */
+@media (min-width:768px) and (max-width: 1199px) {
+  #mapid {
+    height: 80vh !important;
+    /* float: left !important; */
+    width: 100% !important;
+    flex: 100% !important;
+    border: 3px solid #3EBCEF !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    /* padding-left: 50px !important; */
+  }
+
+  #bioshockContainer {
+    height: 80vh !important;
+    border-radius: 10px !important;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    width: 600% !important;
+    height: 80px !important;
+  }
+
+}
+
+/* ------ END TABLET CSS ------ */
+
+
+
+/* ------ DESKTOP CSS ------ *//* ------ DESKTOP CSS ------ *//* ------ DESKTOP CSS ------ *//* ------ DESKTOP CSS ------ *//* ------ DESKTOP CSS ------ *//* ------ DESKTOP CSS ------ */
                 /* ------ Main Div ------ */
 .mainContainer {
   overflow: hidden;
