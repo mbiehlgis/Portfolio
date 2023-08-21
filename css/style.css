@@ -303,6 +303,11 @@ html {
   transition: .3s ease;
 }
 
+#MCDC {
+  border-radius: 10px;
+  padding-top: 4vh;
+}
+
 #WWIIEurope {
   border-radius: 10px;
   padding-top: 3vh;
@@ -418,7 +423,7 @@ html {
 }
 
 #Switzerland {
-  padding-top: 4vh;
+  padding-top: 2vh;
 }
 
 #camp {
